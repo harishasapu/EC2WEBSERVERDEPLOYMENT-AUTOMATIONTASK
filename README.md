@@ -1,8 +1,6 @@
 # EC2WEBSERVERDEPLOYMENT-AUTOMATIONTASK
 
 1.AWSSetup and Instance Management:
-  **Here's the breakdown of the steps into smaller lines:**
-
   1. Log in to the AWS Management Console:
   - Go to [https://aws.amazon.com/](https://aws.amazon.com/)
   - Enter your credentials and sign in.
@@ -39,33 +37,33 @@
   - Use SSH to connect to the instances.
 
 2. Instance Management:
-    Managing EC2 Instances
-    Starting, Stopping, Restarting, and Terminating Instances
+      Managing EC2 Instances
+      Starting, Stopping, Restarting, and Terminating Instances
 
       1)Starting:
       Navigate to EC2 dashboard.
       Select instance.
       Click "Start."
 
-Stopping:
- Navigate to EC2 dashboard.
- Select instance.
- Click "Stop."
- Data preserved.
+      2)Stopping:
+      Navigate to EC2 dashboard.
+      Select instance.
+      Click "Stop."
+      Data preserved.
 
- Restarting: 
- Navigate to EC2 dashboard.
- Select instance.
- Click "Restart."
- Can resolve minor issues.
+      3)Restarting: 
+      Navigate to EC2 dashboard.
+      Select instance.
+      Click "Restart."
+      Can resolve minor issues.
 
-Terminating:
-Navigate to EC2 dashboard.
- Select instance.
- Click "Terminate."
- **Caution:** Deletes data permanently.
+      4)Terminating:
+      Navigate to EC2 dashboard.
+      Select instance.
+      Click "Terminate."
+      Caution: Deletes data permanently.
 
-### Recreating Instances
+   ##Recreating Instances
 
 1.Create new instance:
    * Launch new instance using same AMI.
