@@ -36,6 +36,7 @@
   9. Connect to Instances:
   - Use SSH to connect to the instances.
 
+
 2. Instance Management:
       Managing EC2 Instances
       Starting, Stopping, Restarting, and Terminating Instances
